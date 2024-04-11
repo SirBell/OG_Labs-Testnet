@@ -41,14 +41,15 @@ make build
 mv $HOME/0g-evmos/build/evmosd $HOME/go/bin/
 ```
    # download binary
-`cd $HOME`   
-`rm -rf 0g-evmos
+```
+cd $HOME      
+rm -rf 0g-evmos
 git clone https://github.com/0glabs/0g-evmos.git
 cd 0g-evmos
 git checkout v1.0.0-testnet
 make build
-mv $HOME/0g-evmos/build/evmosd $HOME/go/bin/`
-
+mv $HOME/0g-evmos/build/evmosd $HOME/go/bin/
+```
 # config and init app   
 `evmosd config node tcp://localhost:${OG_PORT}657
 evmosd config keyring-backend os
